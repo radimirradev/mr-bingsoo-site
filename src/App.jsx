@@ -326,7 +326,7 @@ const Footer = () => (
   </footer>
 );
 
-export default function App() {
+function App() {
   const [activeSection, setActiveSection] = useState('Home');
 
   useEffect(() => {
@@ -376,3 +376,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
